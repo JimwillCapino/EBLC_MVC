@@ -5,11 +5,10 @@
 
 /* Custom default button */
 #header {
-  
     background-image: url('/bg.jpg');
     background-size: cover;
     background-position: center;
-    height: 70vh; /* Increase the height as needed */
+    height:700px
 }
     
 .blur-overlay {
