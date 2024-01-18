@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Basecode.Data
+namespace Basecode_Data
 {
     public class BasecodeContext : IdentityDbContext<IdentityUser>
     {
