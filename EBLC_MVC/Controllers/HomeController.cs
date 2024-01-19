@@ -1,3 +1,4 @@
+using Basecode_Data.Model;
 using EBLC_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -20,6 +21,7 @@ namespace EBLC_MVC.Controllers
 
         public IActionResult Privacy()
         {
+            Student student = new Student();
             return View();
         }
 
