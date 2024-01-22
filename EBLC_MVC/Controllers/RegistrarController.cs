@@ -8,5 +8,9 @@ namespace Basecode_WebApp.Controllers
         {
             return View();
         }
+        public IActionResult StudentRecord()
+        {
+            return View();
+        }
     }
 }
