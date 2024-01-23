@@ -12,5 +12,9 @@ namespace Basecode_WebApp.Controllers
         {
             return View();
         }
+        public IActionResult StudentInfo()
+        {
+            return View();
+        }
     }
 }
