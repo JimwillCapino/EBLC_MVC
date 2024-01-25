@@ -24,6 +24,10 @@ namespace EBLC_MVC.Controllers
             Student student = new Student();
             return View();
         }
+        public IActionResult Enroll()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
