@@ -16,5 +16,9 @@ namespace Basecode_WebApp.Controllers
         {
             return View();
         }
+        public IActionResult MonthlyFee()
+        {
+            return View();
+        }
     }
 }

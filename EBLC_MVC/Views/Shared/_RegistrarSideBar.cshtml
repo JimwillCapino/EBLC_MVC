@@ -3,7 +3,6 @@
 *@
 @{
 }
-
 <aside id="sidebar" class="bg-danger bg-gradient">
     <div class="d-flex">
         <button class="toggle-btn" type="button">
@@ -57,11 +56,17 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
+                    <a asp-action="MonthlyFee" class="sidebar-link">
                        Monthly Fee
                     </a>
                 </li>
             </ul>
+        </li>
+        <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="lni lni-enter"></i>
+                <span>Enrollment</span>
+            </a>
         </li>
         <li class="sidebar-item">
             <a href="#" class="sidebar-link">
@@ -89,3 +94,4 @@
         </a>
     </div>
 </aside>
+
